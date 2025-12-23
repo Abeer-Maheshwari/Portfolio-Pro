@@ -12,14 +12,14 @@ This project uses local vision-language models (ollama) that interpret the visua
 - Fully local processing: no API calls or internet required for inference
 - Accepts image inputs (screenshots of graphs, financial websites, reports)
 - Provides natural language feedback, explanations, and recommendations
-- Local LLMs are provided by Ollama
+- Local LVMs are provided by Ollama
 
 ## Requirements
 
 - Python 3.8 or higher
 - Sufficient GPU (recommended for faster inference) or CPU
 - Dependencies include:
-  - Ollama (for running local LLMs)
+  - Ollama (for providing, installing and running the local LVMs)
   - A multimodal model supporting vision (`llava`, `bakllava`, or `moondream` | I used llava:13b)
 
 ## Installation and Usage
