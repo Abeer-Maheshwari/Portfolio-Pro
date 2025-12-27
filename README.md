@@ -27,20 +27,15 @@ This project uses local vision-language models (ollama) that interpret the visua
 
 ## Installation and Usage
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Abeer-Maheshwari/Financial-Advisor.git
-   cd Financial-Advisor
-   ```
-2. Install Ollama from ollama.com and pull a vision-capable model (llava:13b for better results, llava:7b for faster inference):
+1. Install Ollama from ollama.com and pull a vision-capable model (llava:13b for better results, llava:7b for faster inference):
    ```bash
    ollama pull llava:13b
    ```
-3. Install Python Dependencies:
+2. Install Python Dependencies:
    ```bash
    pip install ollama pillow
    ```
-4. Run ollama locally first (keep cmd window open), then script in another window:
+3. Run ollama locally first (keep cmd window open), then script in another window:
    ```bash
    ollama serve
    ```
